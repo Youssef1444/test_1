@@ -37,8 +37,16 @@ clear
 clc
 A=[10,20,30,40]
 B=[60,70,80,90]
-[A,B] %% PRINT A ,B in one raw
+[A,B] %% PRINT A ,B in one raw 
+ans =
+
+    10    20    30    40    60    70    80    90
+
 [A;B] %%PRINT A,B in two raws
+ ans =
+
+    10    20    30    40
+    60    70    80    90
 
 %% program4 #
 clear
@@ -52,8 +60,26 @@ disp(M)
 clear
 clc
  A=[10,20,30;40,50,60;70,80,90]
- A(1,:)
+ 
+ A =
+
+    10    20    30
+    40    50    60
+    70    80    90
+
+A(1,:)
+ans =
+
+    10    20    30
+
  A(:,2)
+ans =
+
+    20
+    50
+    80
+
+
 
 
 
